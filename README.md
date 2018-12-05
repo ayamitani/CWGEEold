@@ -8,3 +8,10 @@ library(devtools)
 devtools::install_github("AyaMitani/CWGEE")
 library(CWGEE)
 ```
+#### Example
+```
+data(perio)
+fitmod <- ordCWGEE(formula = cal ~ mets + edu + age + smoking, data = perio,
+id = subject, cluster.var = tooth, time.var = visit, time.str = "ind")
+summary(fitmod)
+```
