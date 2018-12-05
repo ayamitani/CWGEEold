@@ -1,5 +1,7 @@
 # CWGEE
-Cluster weighted generalized estimating equations for clustered longitudinal data with informative cluster size
+Cluster weighted generalized estimating equations for clustered longitudinal data with informative cluster size.
+Function available is ordCWGEE for ordinal outcomes.
+Function for binary outcomes coming soon.
 
 #### R installation Instructions
 ```
