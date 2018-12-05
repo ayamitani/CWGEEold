@@ -3,10 +3,7 @@ Type: Package
 Title: Cluster weighted generalized estimating equations for clustered longitudinal data with informative cluster size
 Version: 0.0.0.9000
 Authors@R: person("Aya", "Mitani", email = "ayamitani@gmail.com", role = c("aut", "cre"))
-Description: This package includes functions to fit a model using cluster weighted generalized estimating equations (CWGEE) for clustered longitudinal data with informative cluster size (ICS).
-    For ordinal outcomes, use the function ordCWGEE.
-    Function for binary outcomes is coming soon.
-    A simulated example data set (perio) is available.
+Description: This package includes functions to fit a model using cluster weighted generalized estimating equations (CWGEE) for clustered longitudinal data with informative cluster size (ICS). For ordinal outcomes, use the function ordCWGEE. Function for binary outcomes is coming soon. A simulated example data set (perio) is available.
 Depends: R (>= 3.1.1),
          geepack,
          gee,
