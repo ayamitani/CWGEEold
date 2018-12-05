@@ -5,6 +5,6 @@ Cluster weighted generalized estimating equations for clustered longitudinal dat
 ```
 install.packages("devtools")
 library(devtools)
-devtools::install_github(AyaMitani/CWGEE")
+devtools::install_github("AyaMitani/CWGEE")
 library(CWGEE)
 ```
