@@ -2,6 +2,8 @@
 # function to fit CWGEE with alpha
 #------------------------------------------------------------
 
+#' @export
+
 ordCWGEEfit <- function(mdat, beta0, nbeta, id, Y_var, ncategories1, ncategories, X_mat, time.str, Z, alpha){
   
   match.call()

@@ -2,6 +2,8 @@
 # Summary
 #------------------------------------
 
+#' @export
+
 summary.cwgee <- function(object, ...) {
   robust.se <- sqrt(diag(object$robust.variance))
   robust.z <- coef(object)/robust.se

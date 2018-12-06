@@ -2,6 +2,8 @@
 # Print summary
 #----------------------------------
 
+#' @export
+
 print.summary.cwgee <- function(x, ...) {
   cat("Call:\n")
   print(x$call)

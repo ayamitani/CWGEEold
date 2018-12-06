@@ -2,6 +2,8 @@
 # function for iterative CWGEE
 #------------------------------------------------------------
 
+#' @export
+
 ordCWGEEgen <- function(mdat, beta0, nbeta, id, Y_var, ncategories1, ncategories, X_mat, time.str, Z){
   
   match.call()
